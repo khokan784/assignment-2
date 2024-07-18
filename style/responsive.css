@@ -2,11 +2,24 @@
     .banner-container{
         flex-direction: column;
     }
-    .banner-right-side{
+    .banner-right-side,
+    .banner-left-side,
+    .habit-item
+    {
         width: 100%;
     }
-    .banner-left-side{
-        width: 100%;
+    .habit-top-content{
+        width: 80%;
+    }
+    .habit-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .left-inner-content {
+        width: 90%;
+    }
+    .run-right-side img{
+        width: 80%;
     }
 }
 
@@ -27,10 +40,16 @@
         display: none;
     }
     /* banner style  */
-    .banner-container{
+    .banner-container,
+    .habit-content{
         flex-direction: column;
     }
-    .banner-right-side{
+    .banner-right-side, 
+    .habit-top-content,
+    .run-left-side,
+    .run-right-side,
+    .left-inner-content,
+    .run-right-side img{
         width: 100%;
     }
     .banner-left-side{
@@ -39,7 +58,6 @@
     .box-500{
         left: 180px;
         top: 90px;
-    }
     }
     .banner-left-side h1 {
         font-size: 2.25rem;
@@ -65,9 +83,25 @@
     .box-350 p{
         font-size: 0.7rem;
     }
+    /* Change Your Habits */
+    .habit-top-content h3{
+        font-size: 2.25rem;
+    }
+    .habit-item {
+        width: 100%;
+    }
 
+    /* Run an Extra Mile Easily */
+    .run-container{
+        flex-direction: column;
+        width: 90%;
+        padding: 0;
+    }
+    .run-btn{
+        margin: 20px auto;
+    }
 
-
-
+}
+    
 
 
