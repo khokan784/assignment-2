@@ -6,7 +6,6 @@ body {
     font-family: "Inter", sans-serif;
     background-color: #000000;
 }
-
 .btn-share {
     padding: 16px 46px;
     border-radius: 40px;
@@ -26,6 +25,20 @@ body {
     cursor: pointer;
     color: #FFFFFF;
     font-size: 1.1rem;
+    font-weight: 600;
+}
+.color-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.87rem;
+}
+.color-h3{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.color-h5{
+    color: #FFFFFF;
+    font-size: 1.12rem;
     font-weight: 600;
 }
 
@@ -158,4 +171,27 @@ body {
     font-size: 0.8rem;
     margin-top: 0;
     margin-bottom: 10px;
+}
+/* Change Your Habits style  */
+.habit-container{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+.habit-top-content{
+    width: 50%;
+    margin: 0 auto;
+}
+.habit-content{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+.habit-content img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.habit-item h5{
+    margin-bottom: 0;
 }
