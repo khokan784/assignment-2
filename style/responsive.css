@@ -1,5 +1,13 @@
 @media screen and (min-width:576px) and (max-width:992px) {
-    
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-right-side{
+        width: 100%;
+    }
+    .banner-left-side{
+        width: 100%;
+    }
 }
 
 
@@ -7,13 +15,57 @@
 
 
 @media screen and (max-width:576px) {
+    
+    /* manuber style  */
     .hamburger-menu{
         display: block;
+    }
+    .hamburger-menu i{
+        color: white;
     }
     .nav-container>.menu-ber{
         display: none;
     }
-}
+    /* banner style  */
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-right-side{
+        width: 100%;
+    }
+    .banner-left-side{
+        width: 100%;
+    }
+    .box-500{
+        left: 180px;
+        top: 90px;
+    }
+    }
+    .banner-left-side h1 {
+        font-size: 2.25rem;
+        font-weight: 500;
+    }
+    .btn-share{
+        padding: 15px 30px;
+        font-size: 0.8rem;
+    }
+    .btn-share-1{
+        padding: 15px 40px;
+        font-size: 0.8rem;
+    }
+    .box-500 h4{
+        font-size: 1.5rem;
+    }
+    .box-500 p{
+        font-size: 0.5rem;
+    }
+    .box-350 h4{
+        font-size: 1rem;
+    }
+    .box-350 p{
+        font-size: 0.7rem;
+    }
+
 
 
 
