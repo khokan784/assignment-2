@@ -1,4 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CU:wght@100..400&display=swap');
 
 
 /* defult style  */
@@ -114,7 +115,12 @@ body {
     width: 80%;
 }
 
-.text-shape {}
+.text-shape {
+    font-family: "Dancing Script", cursive;
+    font-size: 6rem;
+    font-weight: 700;
+    font-style: italic;
+}
 
 .btn-parent {
     display: flex;
@@ -193,7 +199,7 @@ body {
 /* Change Your Habits style  */
 .habit-container {
     width: 90%;
-    margin: 50px auto;
+    margin: 5rem auto;
     text-align: center;
 }
 
@@ -231,13 +237,13 @@ body {
     width: 90%;
     margin: 0 auto;
     display: flex;
-    padding: 2.5rem;
     background-color: #222222;
     border-radius: 18px;
 }
 
 .run-left-side {
     width: 50%;
+    padding: 2.5rem;
 }
 
 .left-inner-content {
@@ -251,6 +257,7 @@ body {
 .run-right-side {
     width: 50%;
     text-align: right;
+    padding: 2.5rem;
 }
 
 .run-right-side img {
@@ -267,6 +274,7 @@ body {
 .training-container {
     width: 90%;
     margin: 0 auto;
+    margin-top: 5rem;
 }
 .training-p{
     margin-bottom: 50px;
@@ -331,14 +339,17 @@ body {
 }
 
 .bmi-top-content h3 {
-    margin-top: 150px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+.bmi-container{
+    margin: 5rem 0;
 }
 
 .bmi-chart-container {
     width: 100%;
     background-color: #1b1a1a;
-    margin-top: 100px;
+    margin-top: 4rem;
     padding-bottom: 45px;
 }
 
@@ -398,6 +409,9 @@ form input,
 }
 .bmi-main-content .bmi-button{
     margin-top: 25px;
+}
+form select{
+    color: rgb(118, 118, 118);
 }
 
 /* Meet Our Team */

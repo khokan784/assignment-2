@@ -33,6 +33,20 @@
         display: block;
         padding-top: 1px;
     }
+    .run-left-side {
+        padding: 2.5rem;
+    }
+    .run-right-side {
+        text-align: center;
+        padding: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .run-right-side img {
+        width: 100%;
+    }
 }
 
 
@@ -63,8 +77,6 @@
     }
     .banner-right-side, 
     .habit-top-content,
-    .run-left-side,
-    .run-right-side,
     .left-inner-content,
     .run-right-side img,
     .bmi-right-side,
@@ -85,8 +97,17 @@
         top: 90px;
     }
     .banner-left-side h1 {
-        font-size: 2.25rem;
+        font-size: 3rem;
         font-weight: 500;
+    }
+    .text-shape{
+        font-size: 4rem;
+    }
+    .color-h3{
+        font-size: 2rem;
+    }
+    .color-h4{
+        font-size: 1.8rem;
     }
     .btn-share{
         padding: 15px 30px;
@@ -125,6 +146,10 @@
         flex-direction: column;
         width: 90%;
         padding: 0;
+    }
+    .run-left-side,
+    .run-right-side{
+        width: calc(100% - 5rem);
     }
     /*  Trainings and Exercises */
     .grid-image .image-1 {
