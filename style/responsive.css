@@ -9,7 +9,8 @@
     .habit-item,
     .bmi-left-side,
     .bmi-right-side,
-    .footer-left-side
+    .footer-left-side,
+    .footer-right-side
     {
         width: 100%;
     }
@@ -36,16 +37,36 @@
     .run-left-side {
         padding: 2.5rem;
     }
+    .run-left-side h3 {
+        margin-top: 0;
+    }
     .run-right-side {
         text-align: center;
         padding: 2.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 2rem;
     }
     .run-right-side img {
         width: 100%;
+    }
+    .training-image-text-2 {
+        top: 90px;
+        left: 20px;
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .training-image-text-1 {
+        top: 115px;
+        left: 20px;
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .color-h3 {
+        font-size: 2rem;
+    }
+    .footer-right-side{
+        gap: 0;
     }
 }
 
@@ -180,7 +201,7 @@
     .grid-image img {
         height: 150px;
     }
-    .training-image-text-1 {
+    .training-image-text-1, .training-image-text-2 {
         top: 99px;
         left: 16px;
         width: 79%;
