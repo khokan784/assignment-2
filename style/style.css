@@ -73,7 +73,11 @@ body {
     font-weight: 800;
     font-style: italic;
 }
-
+.home-button{
+    background-color: #E6533C;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
 .menu-ber ul {
     display: flex;
 
